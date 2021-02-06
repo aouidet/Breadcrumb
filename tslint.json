@@ -7,7 +7,9 @@
     "align": {
       "options": [
         "parameters",
-        "statements"
+        "statements",
+        "element",
+        "members"
       ]
     },
     "array-type": false,
@@ -51,6 +53,11 @@
       "timeEnd",
       "trace"
     ],
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-construct": true,
+    "no-debugger": true,
+    "no-duplicate-super": true,
     "no-empty": false,
     "no-inferrable-types": [
       true,
